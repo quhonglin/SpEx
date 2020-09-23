@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eec4309-d52b-4e27-bbef-28192ec63d6c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fepOiGtpKLFltkpzUpzMgc8bsV" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/train_fixed_length_model.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\SpEx" />
+      <recent name="D:\PycharmProjects\SpEx\config" />
+      <recent name="D:\PycharmProjects\SpEx\util" />
+      <recent name="D:\PycharmProjects\SpEx\trainer" />
+      <recent name="D:\PycharmProjects\SpEx\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\SpEx" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="train_fixed_length_model" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="SpEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0,1,2,3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/quhongling/experiments/SpEx" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fixed_length_model.py" />
+      <option name="PARAMETERS" value="-C config/train/20200912_tmp.json5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_fixed_length_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fixed_length_model.py" />
+      <option name="PARAMETERS" value="-C 20200912_tmp.json5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_fixed_length_model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eec4309-d52b-4e27-bbef-28192ec63d6c" name="Default Changelist" comment="" />
+      <created>1596588382091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596588382091</updated>
+      <workItem from="1596588383358" duration="2895000" />
+      <workItem from="1596677512418" duration="1130000" />
+      <workItem from="1596872961263" duration="3465000" />
+      <workItem from="1596936229547" duration="3682000" />
+      <workItem from="1596964636224" duration="4714000" />
+      <workItem from="1597021657386" duration="3017000" />
+      <workItem from="1597024760259" duration="509000" />
+      <workItem from="1597025507133" duration="8422000" />
+      <workItem from="1597107737679" duration="10190000" />
+      <workItem from="1597136850527" duration="2845000" />
+      <workItem from="1597191721820" duration="7149000" />
+      <workItem from="1597287411206" duration="1030000" />
+      <workItem from="1597289040728" duration="325000" />
+      <workItem from="1597370988561" duration="7687000" />
+      <workItem from="1597451772351" duration="22611000" />
+      <workItem from="1597809064432" duration="55000" />
+      <workItem from="1597809141366" duration="9671000" />
+      <workItem from="1597888588565" duration="5536000" />
+      <workItem from="1597978710480" duration="2323000" />
+      <workItem from="1598016859600" duration="24485000" />
+      <workItem from="1598240446507" duration="24298000" />
+      <workItem from="1598405424084" duration="5114000" />
+      <workItem from="1598491531712" duration="2537000" />
+      <workItem from="1598663802998" duration="6804000" />
+      <workItem from="1598752373606" duration="15379000" />
+      <workItem from="1599108685695" duration="6643000" />
+      <workItem from="1599183733603" duration="8145000" />
+      <workItem from="1599209214350" duration="1691000" />
+      <workItem from="1599267003381" duration="3041000" />
+      <workItem from="1599441345889" duration="1818000" />
+      <workItem from="1599530521089" duration="22990000" />
+      <workItem from="1599873485294" duration="5866000" />
+      <workItem from="1600668066186" duration="94000" />
+      <workItem from="1600668444716" duration="3744000" />
+      <workItem from="1600689364184" duration="1410000" />
+      <workItem from="1600765851461" duration="797000" />
+      <workItem from="1600826964544" duration="4225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer/base_trainer.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_fixed_length_model.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate_mix_2_linux.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataGenerate_mix_2_linux.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataUtils.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpEx$train_fixed_length_model.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1599878089585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$txtGenerate.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1599122277125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$visual_audio.coverage" NAME="visual_audio Coverage Results" MODIFIED="1598666699149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$dataGenerate_mix_2_linux.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1597653152357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$loss.coverage" NAME="dataGenerate_mix_2_linux Coverage Results" MODIFIED="1599876438398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
