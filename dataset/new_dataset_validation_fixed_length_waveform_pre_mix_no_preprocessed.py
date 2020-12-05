@@ -11,7 +11,7 @@ from util.utils import sample_fixed_length_data_aligned
 
 
 class Dataset(data.Dataset):
-    def __init__(self, dataset_list, limit=None, offset=0, sr=8000, n_samples=32000, reference_length=5):
+    def __init__(self, dataset_list, limit=None, offset=0, sr=16000, n_samples=32000, reference_length=5):
         """
         验证数据集
 
@@ -84,4 +84,4 @@ class Dataset(data.Dataset):
 
         mixture_y, target_y = sample_fixed_length_data_aligned(mixture_y, target_y, self.n_samples)
 
-        return mixture_y.astype(np.float32), (target_y * 3).astype(np.float32), (reference_y * 3), target_filename
+        return mixture_y.astype(np.float32), target_y.astype(np.float32), reference_y, target_filename

@@ -24,8 +24,8 @@ def main(config, resume):
 
     valid_dataloader = DataLoader(
         dataset=initialize_config(config["validation_dataset"]),
-        num_workers=0,
-        batch_size=1
+        batch_size=config["validation_dataloader"]["batch_size"],
+        num_workers=config["validation_dataloader"]["num_workers"]
     )
 
     model = initialize_config(config["model"])

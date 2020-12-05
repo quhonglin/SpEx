@@ -1,53 +1,37 @@
 import os
-import random
 import librosa
 import numpy as np
-from tqdm import tqdm
 
 
-def mix(target_wavs, interfer_wavs):
+def sample_fixed_length_target(target_wav, min_duration, n_samples):
+    if len(target_wav) < (min_duration * n_samples):
+        distance = min_duration * n_samples - len(target_wav)
+        return np.append(target_wav, np.zeros(distance))
+    else:
+        return target_wav
+
+def sample_fixed_length_interfer(target_wav, interfer_wav):
+    if len(target_wav) < len(interfer_wav):
+        start = np.random.randint(len(interfer_wav) - len(target_wav) + 1)
+        end = start + len(target_wav)
+        return interfer_wav[start:end]
+    elif len(target_wav) > len(interfer_wav):
+        distance = len(target_wav) - len(interfer_wav)
+        return np.append(interfer_wav, np.zeros(distance))
+    else:
+        return interfer_wav
+
+def mix(target_wav, interfer_wav):
     """
     混合语音
     :param target_wavs: 目标语音
     :param interfer_wavs: 干扰语音
     :return: 混合语音
     """
-    mix_wavs = [[] for i in range(len(target_wavs))]
-
-    for i in tqdm(range(len(target_wavs)), desc="Mixing speakers"):
-        for j in range(len(target_wavs[i])):
-            if len(target_wavs[i][j]) < len(interfer_wavs[i][j]):
-                short_len = len(target_wavs[i][j])
-                long_len = len(interfer_wavs[i][j])
-                while short_len < long_len:
-                    target_wavs[i][j] = np.append(target_wavs[i][j], 0)
-                    short_len += 1
-            elif len(target_wavs[i][j]) > len(interfer_wavs[i][j]):
-                short_len = len(interfer_wavs[i][j])
-                long_len = len(target_wavs[i][j])
-                while short_len < long_len:
-                    interfer_wavs[i][j] = np.append(interfer_wavs[i][j], 0)
-                    short_len += 1
-            else:
-                pass
-
-            mix_wav = target_wavs[i][j] + interfer_wavs[i][j]
-            mix_wav = 2 * (mix_wav - np.min(mix_wav)) / (np.max(mix_wav) - np.min(mix_wav)) - 1
-            mix_wav = quieter(mix_wav)
-
-            assert len(target_wavs[i][j]) == len(mix_wav)
-
-            mix_wavs[i].append(mix_wav)
-
-    return target_wavs, mix_wavs
-
-
-def shuffle(wavs):
-    """洗牌"""
-    random.shuffle(wavs)
-    for wav in wavs:
-        random.shuffle(wav)
-    return wavs
+    mix_wav = target_wav + interfer_wav
+    mix_wav = 2 * (mix_wav - np.min(mix_wav)) / (np.max(mix_wav) - np.min(mix_wav)) - 1
+    mix_wav = quieter(mix_wav)
+    return mix_wav
 
 
 def quieter(wav):

@@ -72,6 +72,7 @@ class Trainer(BaseTrainer):
         for i, (mixture, target, reference, target_filename) in tqdm(enumerate(self.validation_dataloader)):
             assert len(target_filename) == 1, "The batch size of validation dataloader must be 1."
             name = target_filename[0]
+            print("filename:", name)
 
             mixture = mixture.to(self.device)
             reference = reference.to(self.device)

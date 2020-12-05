@@ -201,12 +201,12 @@ class BaseTrainer:
             print("[0 seconds] Begin training...")
             timer = ExecutionTime()
 
-            # self._set_models_to_train_mode()
-            # self._train_epoch(epoch)
-            # # self.scheduler.step()
-            #
-            # if self.save_checkpoint_interval != 0 and (epoch % self.save_checkpoint_interval == 0):
-            #     self._save_checkpoint(epoch)
+            self._set_models_to_train_mode()
+            self._train_epoch(epoch)
+            # self.scheduler.step()
+
+            if self.save_checkpoint_interval != 0 and (epoch % self.save_checkpoint_interval == 0):
+                self._save_checkpoint(epoch)
 
             if self.validation_interval != 0 and epoch % self.validation_interval == 0:
                 print(f"[{timer.duration()} seconds] Training is over, Validation is in progress...")

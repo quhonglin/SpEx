@@ -47,6 +47,7 @@
 //            "dataset_list": "~/Datasets/SpeakerBeam/S1_DA_data_from_ME_SNR_total_BG20db_clean_Nonoise_train/dataset_sort_500spks.txt",
             "dataset_list": "~/dataset/mix_2/train/train_dataset_path.txt",
 //            "limit": null,
+            limit: 10,
 //            "offset": 0,
             "n_samples": 32000,
             "sr": 16000,
@@ -59,17 +60,25 @@
         "args": {
 //            "dataset_list": "~/Datasets/SpeakerBeam/test_S1_real_ALL/dataset.txt",
             "dataset_list": "~/dataset/mix_2/dev/dev_dataset_path.txt",
-            "limit": 10,
+//            "limit": null,
+            "limit": 20,
             "offset": 0,
             "sr": 16000
         }
     },
     "train_dataloader": {
-//        "batch_size": 24,
-        "batch_size": 12,
-//        "num_workers": 24,
+//        "batch_size": 12,
+        "batch_size": 10,
+//        若要调试，进程数设为 0
+//        "num_workers": 0,
         "num_workers": 40,
-        "shuffle": true,
+//        "shuffle": true,
+        "shuffle": false,
         "pin_memory": true
+    },
+    "validation_dataloader": {
+        "batch_size": 1,
+//      进程数设为 0, 表示只有一个主进程
+        "num_workers": 0
     }
 }

@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eec4309-d52b-4e27-bbef-28192ec63d6c" name="Default Changelist" comment="" />
+    <list default="true" id="9eec4309-d52b-4e27-bbef-28192ec63d6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/train/20201128_allsamples.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/train/20200912_tmp.json5" beforeDir="false" afterPath="$PROJECT_DIR$/config/train/20201118_train10samples.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataGenerate_mix_2_linux.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataGenerate_mix_2_linux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/new_dataset_validation_fixed_length_waveform_pre_mix_no_preprocessed.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/new_dataset_validation_fixed_length_waveform_pre_mix_no_preprocessed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_fixed_length_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_fixed_length_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer/base_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer/base_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer/default_fixed_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer/default_fixed_length.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,19 +42,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fepOiGtpKLFltkpzUpzMgc8bsV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/train_fixed_length_model.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\SpEx\config\train" />
       <recent name="D:\PycharmProjects\SpEx" />
       <recent name="D:\PycharmProjects\SpEx\config" />
       <recent name="D:\PycharmProjects\SpEx\util" />
       <recent name="D:\PycharmProjects\SpEx\trainer" />
-      <recent name="D:\PycharmProjects\SpEx\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\SpEx" />
@@ -45,7 +82,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.train_fixed_length_model">
+    <configuration name="dataGenerate_mix_2_linux" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SpEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0,1,2,3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/quhongling/experiments/SpEx" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataGenerate_mix_2_linux.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_fixed_length_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0,1,2,3" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://quhongling@202.207.12.167:22/home/quhongling/anaconda3/envs/pytorch/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/quhongling/experiments/SpEx" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fixed_length_model.py" />
+      <option name="PARAMETERS" value="-C config/train/20201205_train10samples_shuffle.json5" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train_fixed_length_model" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="SpEx" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +165,7 @@
         </option>
       </PathMappingSettings>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fixed_length_model.py" />
-      <option name="PARAMETERS" value="-C config/train/20200912_tmp.json5" />
+      <option name="PARAMETERS" value="-C config/train/20200926_test.json5" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -76,12 +173,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_fixed_length_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="txtGenerate" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SpEx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0,1,2,3" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -89,8 +187,15 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_fixed_length_model.py" />
-      <option name="PARAMETERS" value="-C 20200912_tmp.json5" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/quhongling/experiments/SpEx" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/txtGenerate.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -98,6 +203,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.dataGenerate_mix_2_linux" />
+      <item itemvalue="Python.txtGenerate" />
+      <item itemvalue="Python.train_fixed_length_model" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.train_fixed_length_model" />
@@ -151,11 +261,77 @@
       <workItem from="1600689364184" duration="1410000" />
       <workItem from="1600765851461" duration="797000" />
       <workItem from="1600826964544" duration="4225000" />
+      <workItem from="1600851674627" duration="1835000" />
+      <workItem from="1600860269880" duration="1580000" />
+      <workItem from="1600909627470" duration="6216000" />
+      <workItem from="1600947360275" duration="4557000" />
+      <workItem from="1600994795423" duration="3203000" />
+      <workItem from="1601017304959" duration="7645000" />
+      <workItem from="1601103985962" duration="10760000" />
+      <workItem from="1601169366805" duration="9072000" />
+      <workItem from="1601276354561" duration="4300000" />
+      <workItem from="1601439465299" duration="41000" />
+      <workItem from="1601875599936" duration="5429000" />
+      <workItem from="1601968095918" duration="854000" />
+      <workItem from="1602837484198" duration="1426000" />
+      <workItem from="1603182490751" duration="6113000" />
+      <workItem from="1603245711817" duration="4170000" />
+      <workItem from="1603278950381" duration="824000" />
+      <workItem from="1603330315873" duration="1227000" />
+      <workItem from="1603713925216" duration="605000" />
+      <workItem from="1604048016079" duration="1953000" />
+      <workItem from="1604059090281" duration="968000" />
+      <workItem from="1604125256172" duration="3741000" />
+      <workItem from="1604193184993" duration="5960000" />
+      <workItem from="1604302586540" duration="7453000" />
+      <workItem from="1604489415308" duration="203000" />
+      <workItem from="1604581589012" duration="757000" />
+      <workItem from="1604623975909" duration="1611000" />
+      <workItem from="1604669143522" duration="1492000" />
+      <workItem from="1604799487926" duration="606000" />
+      <workItem from="1604923452914" duration="3511000" />
+      <workItem from="1605010276964" duration="839000" />
+      <workItem from="1605086402174" duration="536000" />
+      <workItem from="1605178176654" duration="217000" />
+      <workItem from="1605229832469" duration="2836000" />
+      <workItem from="1605601229182" duration="2850000" />
+      <workItem from="1605664887210" duration="9292000" />
+      <workItem from="1605689300530" duration="4225000" />
+      <workItem from="1605753749464" duration="2870000" />
+      <workItem from="1606178142703" duration="1379000" />
+      <workItem from="1606202637914" duration="7532000" />
+      <workItem from="1606274106142" duration="7263000" />
+      <workItem from="1606355868419" duration="7484000" />
+      <workItem from="1606462994018" duration="5428000" />
+      <workItem from="1606478451720" duration="2227000" />
+      <workItem from="1606526889832" duration="3448000" />
+      <workItem from="1606539126003" duration="3832000" />
+      <workItem from="1606617435271" duration="17754000" />
+      <workItem from="1606824785503" duration="266000" />
+      <workItem from="1606874993558" duration="5163000" />
+      <workItem from="1606960253944" duration="5393000" />
+      <workItem from="1607044424265" duration="4720000" />
+      <workItem from="1607150226494" duration="4580000" />
+      <workItem from="1607159069263" duration="1066000" />
+      <workItem from="1607160158030" duration="87000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,48 +342,28 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
-          <line>147</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/train_fixed_length_model.py</url>
           <line>89</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainer/default_fixed_length.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/trainer/base_trainer.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dataGenerate_mix_2_linux.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dataGenerate_mix_2_linux.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dataUtils.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/train_fixed_length_model.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpEx$train_fixed_length_model.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1599878089585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SpEx$txtGenerate.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1599122277125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$train_fixed_length_model.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1607155912696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$txtGenerate.coverage" NAME="txtGenerate Coverage Results" MODIFIED="1601174028657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpEx$visual_audio.coverage" NAME="visual_audio Coverage Results" MODIFIED="1598666699149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SpEx$dataGenerate_mix_2_linux.coverage" NAME="train_fixed_length_model Coverage Results" MODIFIED="1597653152357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpEx$dataGenerate_mix_2_linux.coverage" NAME="dataGenerate_mix_2_linux Coverage Results" MODIFIED="1601173943013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpEx$loss.coverage" NAME="dataGenerate_mix_2_linux Coverage Results" MODIFIED="1599876438398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
